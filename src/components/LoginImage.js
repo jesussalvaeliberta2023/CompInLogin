@@ -1,3 +1,4 @@
+//Importações
 import { StatusBar } from 'expo-status-bar';
 import { View, Image } from 'react-native';
 import styles from '../style/styleSheet';
@@ -5,7 +6,7 @@ import styles from '../style/styleSheet';
 export default function LoginImage() {
 
   return (
-
+    //My Logo
     <View style={styles.headerContainer}>
       <Image
           source={require('../assets/images/Logo.png')}

@@ -1,3 +1,4 @@
+//Importações
 import { StatusBar } from 'expo-status-bar';
 import { View, Button } from 'react-native';
 import styles from '../style/styleSheet';
@@ -10,6 +11,7 @@ export default function LoginButton() {
 
   return (
 
+      //Botão
       <View style={styles.bodyContainer}>
         <Button
           title='Entrar'

@@ -1,3 +1,4 @@
+//Importações
 import { StatusBar } from 'expo-status-bar';
 import { View, TextInput } from 'react-native';
 import styles from '../style/styleSheet';
@@ -5,7 +6,8 @@ import styles from '../style/styleSheet';
 export default function LoginInput() {
 
   return (
-    
+
+      //Inputs
       <View style={styles.bodyContainer}>
         <TextInput 
           placeholder='Nome'
