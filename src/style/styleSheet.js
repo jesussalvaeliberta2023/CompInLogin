@@ -65,6 +65,45 @@ export const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 15,
   },
+
+  botao:{
+    backgroundColor: '#000080',
+    width: 200,
+    height: 40,
+    borderRadius: 20,
+    textAlign: 'center',
+    shadowColor: '#000080',
+    shadowOffset: { 
+      width: 0, 
+      height: 2,
+    },
+    shadowOpacity: 0.8,
+    shadowRadius: 50,
+  },
+
+  textb:{
+    textAlign:'center', 
+    marginTop: -22,
+    color: 'white',
+    fontSize: 18,
+    fontWeight: 'bold',
+    position: 'relative'
+  },
+
+  star:{
+    width: 25,
+    height: 25,
+    marginTop: 7,
+    marginLeft: 10,
+  },
+
+  starr:{
+    width: 25,
+    height: 25,
+    marginTop: 7,
+    marginLeft: 165,
+    position:'absolute'
+  }
 });
 
 export default styles;

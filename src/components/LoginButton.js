@@ -1,6 +1,5 @@
 //Importações
-import { StatusBar } from 'expo-status-bar';
-import { View, Button } from 'react-native';
+import { View, TouchableOpacity, Text, Image } from 'react-native';
 import styles from '../style/styleSheet';
 
 export default function LoginButton() {
@@ -13,11 +12,19 @@ export default function LoginButton() {
 
       //Botão
       <View style={styles.bodyContainer}>
-        <Button
-          title='Entrar'
-          color= 'blue'
-          onPress={pressButton}
-        />
+        <TouchableOpacity onPress={pressButton} style={styles.botao}>
+          <Image
+            source={require('../assets/images/Star.png')}
+            style={styles.star}
+            resizeMode='cover'
+          />
+          <Text style={styles.textb}>Enter</Text>
+          <Image
+            source={require('../assets/images/Star.png')}
+            style={styles.starr}
+            resizeMode='cover'
+          />
+        </TouchableOpacity>
       </View>
     
   );
